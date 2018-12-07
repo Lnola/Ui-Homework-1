@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+
+button
+{
+    height:64px;
+    width:256px;
+    color: white;
+    background: rgba(52, 196, 52, 0.808);
+    font-family:arial;
+    font-size: 15px;
+    border-radius: 5px;
+    border-style:double;
+    border-width: thin;
+    border-color: rgba(116, 116, 116, 0.253);
+    padding: 2px
+}
+
+.inputs
+{
+    height:40px;
+    width:246px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-style:double;
+    border-width: thin;
+    border-color: rgba(116, 116, 116, 0.253);
+    padding-left: 10px;
+}
+
+.text
+{
+    color: rgba(116, 116, 116, 0.904);
+    font-family: arial;
+    font-size: 14px;
+}
+
+.textException
+{
+    color: rgba(116, 116, 116, 0.904);
+    font-size: 13px;
+    width: 256px;
+    text-align: center;
+}
+
+.textException1
+{
+    color: rgba(116, 116, 116, 0.904);
+    font-size: 13px;
+    width: 256px;
+}
+
+body
+{
+    margin-top:35px;
+    margin-left:20px;
+}
+
+.decoration
+{
+    text-decoration: none;
+    color:rgb(0, 131, 212);
+}
+
+::placeholder
+{
+    color:rgba(116, 116, 116, 0.603);
+}
+
+</style>
+</head>
+<body>
+    <p class="text">Username</p>
+    <p> <input class="inputs" type="text" name="username" placeholder="Pick a username"></p>
+    <p class="text">Email</p>
+    <p> <input class="inputs" type="email" name="email" placeholder="you@example.com"></p>
+    <p class="text">Password</p>
+    <p> <input class="inputs" type="password" name="password" placeholder="Create a password"></p>
+    <p class="textException1">Make sure it's more than 15 characters, or at least 8 characters, including a number and a lowercase letter</p>
+    <a href="https://www.google.com"><button><b>Sign up for GitHub</b></button></a>
+    <p class="textException">
+        By clicking "Sign up for GitHub", you agree to our 
+        <a class="decoration" href="https://www.google.com">terms of service</a>
+        and
+        <a class="decoration" href="https://www.google.com">privacy statement</a>.
+        We'll occasionally send your account related emails
+    </p>
+</body>
+</html>
